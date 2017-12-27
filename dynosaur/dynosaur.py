@@ -1,10 +1,10 @@
 """Collection of functions for Revit."""
-import objects
-import window
-import curtainwall
-import util
-import room
-import collector
+from . import objects
+from . import window
+from . import curtainwall
+from . import util
+from . import room
+from . import collector
 
 import clr
 clr.AddReference("RevitAPI")
